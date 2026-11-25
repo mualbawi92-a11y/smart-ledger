@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="sheetGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Container with subtle border -->
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#bgGrad)" stroke="#10b981" stroke-width="6" filter="url(#shadow)" />
+
+  <!-- Outer Ring Accent -->
+  <rect x="36" y="36" width="440" height="440" rx="96" fill="none" stroke="#334155" stroke-width="2" opacity="0.6" />
+
+  <!-- Ledger Folio / Book Shape -->
+  <g transform="translate(96, 88)">
+    <!-- Back Cover Shadow -->
+    <rect x="8" y="12" width="304" height="320" rx="28" fill="#042f2e" opacity="0.5" />
+    
+    <!-- Ledger Spine & Cover -->
+    <rect x="0" y="0" width="320" height="320" rx="28" fill="#0f766e" />
+    
+    <!-- Inner Main Page (White Paper) -->
+    <rect x="32" y="16" width="272" height="288" rx="16" fill="url(#sheetGrad)" />
+    
+    <!-- Left Margin / Spine stitch line -->
+    <line x1="68" y1="16" x2="68" y2="304" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="8 6" />
+    
+    <!-- Ledger Header Bar (Emerald) -->
+    <rect x="84" y="44" width="200" height="24" rx="8" fill="url(#emeraldGrad)" />
+    
+    <!-- Accounting Table Rows -->
+    <rect x="84" y="90" width="130" height="14" rx="6" fill="#64748b" opacity="0.5" />
+    <rect x="230" y="90" width="54" height="14" rx="6" fill="#10b981" />
+    
+    <rect x="84" y="122" width="110" height="14" rx="6" fill="#64748b" opacity="0.4" />
+    <rect x="210" y="122" width="74" height="14" rx="6" fill="#ef4444" opacity="0.9" />
+
+    <rect x="84" y="154" width="140" height="14" rx="6" fill="#64748b" opacity="0.5" />
+    <rect x="240" y="154" width="44" height="14" rx="6" fill="#10b981" />
+
+    <!-- Financial Chart / Growth Arrow Overlay -->
+    <path d="M 84 260 L 140 220 L 190 240 L 270 176" fill="none" stroke="#059669" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Arrow Head -->
+    <polyline points="252,176 270,176 270,194" fill="none" stroke="#059669" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Ribbon Bookmark (Gold) -->
+    <path d="M 120 0 L 120 76 L 138 60 L 156 76 L 156 0 Z" fill="url(#goldGrad)" />
+  </g>
+
+  <!-- Golden Currency Badge in bottom right corner -->
+  <g transform="translate(320, 310)">
+    <circle cx="64" cy="64" r="54" fill="url(#goldGrad)" stroke="#fef08a" stroke-width="4" filter="url(#shadow)" />
+    <!-- Center Dollar / Currency Symbol -->
+    <text x="64" y="82" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#78350f" text-anchor="middle">$</text>
+  </g>
+</svg>

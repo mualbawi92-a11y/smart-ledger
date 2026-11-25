@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ced-1792331966197-978",
+    "companyName": "شركة الاختبار",
+    "clientName": "",
+    "phone": "",
+    "city": "",
+    "notes": "",
+    "duration": "lifetime",
+    "editionType": "client_edition",
+    "allowExport": false,
+    "allowUpdate": true,
+    "licenseKey": "SLPWZ-GBH9K-MBZQF-BZPJG-DZW4X",
+    "issueDate": "2026-10-18T13:59:26.197Z",
+    "status": "active"
+  },
+  {
+    "id": "ced-1792329531819-852",
+    "companyName": "شركة النور",
+    "clientName": "",
+    "phone": "",
+    "city": "",
+    "notes": "",
+    "duration": "lifetime",
+    "editionType": "client_edition",
+    "allowExport": false,
+    "allowUpdate": true,
+    "licenseKey": "SL7W9-KGHGZ-KDYPG-B6NCG-DJ4TG",
+    "issueDate": "2026-10-18T13:18:51.819Z",
+    "status": "active"
+  }
+]

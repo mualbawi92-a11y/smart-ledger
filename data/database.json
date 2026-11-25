@@ -1,0 +1,90 @@
+{
+  "version": "3.0.0",
+  "appName": "Smart Ledger Pro",
+  "lastUpdated": "2026-10-18T13:07:57.719Z",
+  "companySettings": {
+    "name": "",
+    "phone": "",
+    "address": "",
+    "logo": "",
+    "systemUser": "محمد علي الباوي (مدير)",
+    "theme": "dark"
+  },
+  "companyInfo": {
+    "name": "",
+    "phone": "",
+    "address": ""
+  },
+  "accounts": [
+    {
+      "id": "acc-box-1",
+      "code": "101",
+      "name": "الصندوق الرئيسي",
+      "type": "cash_box",
+      "phone": "",
+      "city": "",
+      "balanceIQD": 0,
+      "balanceUSD": 0,
+      "linkedVaultId": "acc-vault-1"
+    },
+    {
+      "id": "acc-vault-1",
+      "code": "102",
+      "name": "الخزنة الرئيسية",
+      "type": "vault",
+      "phone": "",
+      "city": "",
+      "balanceIQD": 0,
+      "balanceUSD": 0
+    }
+  ],
+  "transactions": [],
+  "currencies": [
+    {
+      "code": "USD",
+      "nameAr": "دولار أمريكي",
+      "nameEn": "US Dollar",
+      "buyRate": 1515,
+      "sellRate": 1525,
+      "change24h": 0,
+      "flag": "🇺🇸"
+    },
+    {
+      "code": "IQD",
+      "nameAr": "دينار عراقي",
+      "nameEn": "Iraqi Dinar",
+      "buyRate": 1,
+      "sellRate": 1,
+      "change24h": 0,
+      "flag": "🇮🇶"
+    },
+    {
+      "code": "EUR",
+      "nameAr": "يورو أوروبي",
+      "nameEn": "Euro",
+      "buyRate": 1620,
+      "sellRate": 1640,
+      "change24h": 0,
+      "flag": "🇪🇺"
+    },
+    {
+      "code": "AED",
+      "nameAr": "درهم إماراتي",
+      "nameEn": "UAE Dirham",
+      "buyRate": 412,
+      "sellRate": 416,
+      "change24h": 0,
+      "flag": "🇦🇪"
+    },
+    {
+      "code": "TRY",
+      "nameAr": "ليرة تركية",
+      "nameEn": "Turkish Lira",
+      "buyRate": 42,
+      "sellRate": 44,
+      "change24h": 0,
+      "flag": "🇹🇷"
+    }
+  ],
+  "agents": []
+}

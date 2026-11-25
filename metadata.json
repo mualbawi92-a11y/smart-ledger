@@ -1,0 +1,8 @@
+{
+  "name": "Remix Smart Ledger - المحاسب الذكي",
+  "description": "تطبيق محاسبي متكامل لإدارة الحسابات، الحوالات المالية، وصرف العملات للويب والموبايل.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
